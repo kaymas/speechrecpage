@@ -1,0 +1,28 @@
+.words
+    margin: 50px auto
+    max-width: 640px
+    border-radius: 3px
+    box-shadow: 10px 10px 20px rgba(#333,0.2), 10px 10px 30px rgba(#ccc,0.2)
+    //ruled lines
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ccc), color-stop(4%, #fff)) 0 4px
+    background-size: 100% 3rem
+    padding: 4rem 2rem 3rem 5rem
+    position: relative
+    line-height: 3rem
+    font-family: 'Homemade Apple', cursive
+    font-size: 2.2rem
+    word-spacing: 1rem
+
+    &::before 
+        content: ''
+        position: absolute
+        width: 4px
+        top: 0
+        left: 30px
+        bottom: 0
+        border: 1px solid
+        border-color: transparent pink
+
+    p
+        margin: 0 0 3rem
+        color: #333

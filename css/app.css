@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Homemade+Apple");
+html {
+  font-size: 10px; }
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", arial, sans-serif;
+  background: #333; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: black; }
+  a:hover {
+    color: gray; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+
+hr {
+  color: #333; }
+
+.main {
+  max-width: 640px;
+  margin: 0 auto; }
+
+.align-center {
+  text-align: center; }
+
+.words {
+  margin: 50px auto;
+  max-width: 640px;
+  border-radius: 3px;
+  box-shadow: 10px 10px 20px rgba(51, 51, 51, 0.2), 10px 10px 30px rgba(204, 204, 204, 0.2);
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#ccc), color-stop(4%, #fff)) 0 4px;
+  background-size: 100% 3rem;
+  padding: 4rem 2rem 3rem 5rem;
+  position: relative;
+  line-height: 3rem;
+  font-family: "Homemade Apple", cursive;
+  font-size: 2.2rem;
+  word-spacing: 1rem; }
+  .words::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    top: 0;
+    left: 30px;
+    bottom: 0;
+    border: 1px solid;
+    border-color: transparent pink; }
+  .words p {
+    margin: 0 0 3rem;
+    color: #333; }
+
+/*# sourceMappingURL=app.css.map */
