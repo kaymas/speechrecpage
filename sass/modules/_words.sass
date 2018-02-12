@@ -6,7 +6,7 @@
     //ruled lines
     background: -webkit-gradient(linear, 0 0, 0 100%, from(#ccc), color-stop(4%, #fff)) 0 4px
     background-size: 100% 3rem
-    padding: 4rem 2rem 3rem 5rem
+    padding: 7rem 2rem 3rem 5rem
     position: relative
     line-height: 3rem
     font-family: 'Homemade Apple', cursive
@@ -24,5 +24,35 @@
         border-color: transparent pink
 
     p
-        margin: 0 0 3rem
+        margin: 0
         color: #333
+
+    .cpclipboard
+        position: absolute
+        top: 0
+        right: 0
+        box-sizing: border-box
+        padding: 0.5rem 1rem
+        margin-right: 10px 
+        margin-top: 10px
+        font-family: 'Source Sans Pro'
+        font-size: 1.6rem
+        letter-spacing: 0.2px
+        word-spacing: 2px
+        background: #333
+        color: #eee
+        border-radius: 3px
+        cursor: pointer
+
+        &::before
+            content: attr(data-attribute)
+            position: absolute
+            left: 0
+            bottom: -50%
+            font-size: 1.6rem
+            color: #ccc
+            text-transform: uppercase
+            // font-weight: bold
+            background: #333
+            border-radius: 3px
+            padding: 0px 10px
